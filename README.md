@@ -4,7 +4,7 @@
 This is a **Task Board application** built as part of the **Frontend Internship Assignment at Hintro**.  
 The app allows users to manage tasks efficiently with features like add/edit/delete tasks, drag & drop between columns, search, filter, and activity tracking.  
 
-## **Technologies Used:**
+## Technologies Used:
 - **React** - Frontend library  
 - **Vite** - Fast development & build  
 - **localStorage** - Persistence of tasks  
