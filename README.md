@@ -55,6 +55,6 @@ The app allows users to manage tasks efficiently with features like add/edit/del
 
 ### 1. Clone Project
 ```bash
-git clone https://spectacular-bublanina-a8cb62.netlify.app/
+git clone   https://spectacular-bublanina-a8cb62.netlify.app/
 cd task-board
 
