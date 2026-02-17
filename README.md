@@ -84,8 +84,25 @@ Run basic tests using Vitest:
      npx vitest
 
 
-Ensures Login page renders
+- Ensures Login page renders
 
-TaskBoard renders
+- TaskBoard renders
 
-Add Task button exists
+- Add Task button exists
+
+## Folder Structure
+
+      task-board/
+      ├─ src/
+      │   ├─ components/        # Reusable components (if any)
+      │   ├─ pages/             # Login.jsx, TaskBoard.jsx
+      │   ├─ utils/             # Storage helpers (optional)
+      │   ├─ __tests__/         # Test files
+      │   ├─ App.jsx
+      │   ├─ main.jsx
+      │   └─ index.css
+      ├─ package.json
+      ├─ vite.config.js
+      └─ README.md
+
+
