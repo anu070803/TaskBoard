@@ -1,16 +1,60 @@
-# React + Vite
+# Task Board Frontend App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a **Task Board application** built as part of the **Frontend Internship Assignment at Hintro**.  
+The app allows users to manage tasks efficiently with features like add/edit/delete tasks, drag & drop between columns, search, filter, and activity tracking.  
 
-Currently, two official plugins are available:
+**Technologies Used:**
+- **React** - Frontend library  
+- **Vite** - Fast development & build  
+- **localStorage** - Persistence of tasks  
+- **Vitest + React Testing Library** - Basic testing  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features Implemented
+1. **Static Login Flow**
+   - Hardcoded credentials:
+     - Email: `intern@demo.com`  
+     - Password: `intern123`
+   - Error messages on invalid login  
+   - Remember me via localStorage  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Task Board**
+   - Columns: **Todo, Doing, Done**  
+   - Add / Edit / Delete tasks  
+   - Drag & Drop tasks between columns  
+   - Task properties:
+     - Title (required)  
+     - Description  
+     - Priority (Low / Medium / High)  
+     - Due Date  
+     - CreatedAt  
+   - Search tasks by title  
+   - Reset Board option with confirmation  
 
-## Expanding the ESLint configuration
+3. **Persistence & Reliability**
+   - Board state persists across page refresh  
+   - localStorage safely handles empty/missing storage  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Activity Log**
+   - Tracks latest actions:
+     - Task created  
+     - Task edited  
+     - Task moved  
+     - Task deleted  
+
+5. **Basic Testing**
+   - Login page render test  
+   - TaskBoard render test  
+   - Add Task button existence test  
+
+---
+
+## Setup Instructions
+
+### 1. Clone Project
+```bash
+git clone <YOUR_REPO_URL>
+cd task-board
+
