@@ -55,7 +55,7 @@ The app allows users to manage tasks efficiently with features like add/edit/del
 
 ### 1. Clone Project
 
-     git clone:   https://spectacular-bublanina-a8cb62.netlify.app
+     git clone   https://spectacular-bublanina-a8cb62.netlify.app/
      cd task-board 
 
 ### 2. Install Dependencies
@@ -65,4 +65,27 @@ The app allows users to manage tasks efficiently with features like add/edit/del
 
           npm run dev
 Open browser: http://localhost:5173
+
 ## Deployment
+
+The app can be deployed publicly using Netlify / Vercel / GitHub Pages.
+Example Netlify steps:
+
+1. Drag & drop task-board folder into Netlify dashboard
+
+2. Or connect GitHub repo and deploy
+
+3. Copy the live URL for submission
+
+## Testing  
+
+Run basic tests using Vitest:
+
+     npx vitest
+
+
+Ensures Login page renders
+
+TaskBoard renders
+
+Add Task button exists
